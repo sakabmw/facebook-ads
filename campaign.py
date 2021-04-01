@@ -121,7 +121,6 @@ for element in campaigns:
 
 # Creating a dataframe from the dictionary
 df = pd.DataFrame(data)
-print(df)
 
 # Ingest the data to BigQuery
 job_config = bigquery.LoadJobConfig()
